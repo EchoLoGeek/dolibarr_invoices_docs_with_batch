@@ -197,7 +197,7 @@ class modPDFInvoiceBatch extends DolibarrModules
 	{
 		global $conf, $langs;
 
-		return $this->_init('', $options);
+		return $this->_init([], $options);
 	}
 
 	/**
